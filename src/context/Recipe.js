@@ -1,10 +1,12 @@
 import React from 'react';
 
+import RecipeEditor from '../components/Recipe/Recipe';
 
 
-const Recipe = ()=>{
+
+const Recipe = ({match})=>{
     return <div>
-        This is tthe Recipe with id ++++
+        <RecipeEditor />
     </div>
 }
 

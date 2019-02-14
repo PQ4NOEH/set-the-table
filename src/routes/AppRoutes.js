@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Router, Route, Switch } from 'react-router-dom';
+import {Router, Redirect, Route, Switch } from 'react-router-dom';
 
 import { createBrowserHistory } from "history";
 
@@ -16,6 +16,7 @@ const AppRoutes = ()=>{
             <Route path="/RecipeSearch" component={RecipeSearch}/>
             <Route path="/Recipe/:id" component={Recipe}/>
             <Route path="/weekPlan/:year/:weekNumber" component={WeekPlan}/>
+            <Redirect to='/RecipeSearch' from="/" exact={true} navbarName= "RecipeSearch"/>
         </Switch>
     </Router>
 }
