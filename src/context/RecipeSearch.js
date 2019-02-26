@@ -1,6 +1,6 @@
 import React from 'react';
-import RecipeSearchFilter from '../components/Recipe/RecipeSearchFilter';
-import RecipeSearchResult from '../components/Recipe/RecipeSearchResult';
+import RecipeSearchFilter from '../components/RecipeSearch/RecipeSearchFilter';
+import RecipeSearchResult from '../components/RecipeSearch/RecipeSearchResult';
 
 
 const RecipeSearch = ()=>{

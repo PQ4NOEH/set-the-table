@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 
-import withStyles from '@material-ui/core/styles/withStyles';
 import DeleteIcon from '@material-ui/icons/Delete';
 
 import { 
